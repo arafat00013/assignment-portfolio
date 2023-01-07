@@ -1,0 +1,8 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+/* banner styles */
+.banner{
+    margin: 0 200px;
+    display: flex;
+}
