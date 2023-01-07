@@ -1,8 +1,79 @@
-*{
+* {
     font-family: 'Open Sans', sans-serif;
 }
+
 /* banner styles */
-.banner{
-    margin: 0 200px;
+.banner {
+    text-align: right;
+    align-items: center;
+    max-width: 1600px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.banner-discription {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.btn-primary {
+    height: 64px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+}
+
+/* main-section */
+.main-sextion {
+    margin: 200px 0;
     display: flex;
+    align-items: center;
+}
+
+/* my-plan styles */
+.my-plans {
+    margin-top: 130px;
+}
+
+.skill-container {
+    display: flex;
+    align-items: center;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+
+.skill-description {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+
+}
+
+.contact {
+    display: flex;
+    gap: 100px;
+    background: #151414;
+    color: #F8F8F8;
+}
+
+.contact.section-tilte {
+    text-align: left;
+    color: #F8F8F8;
+}
+
+btn-secondary {
+    background: #005FAC;
+    border-radius: 8px;
+    color: #FFFFFF;
 }
